@@ -1,0 +1,22 @@
+# cicd-pipeline-train-schedule-kubernetes
+
+This is a simple train schedule app written using nodejs. It is intended to be used as a sample application for a series of hands-on learning activities.
+Structured Application delivery CI/CD pipeline in Jenkins for Automated Deployment using GIT .
+Performed orchestration of application with Kubernetes 3 nodes cluster setup and monitoring with Prometheus..   
+
+## Running the app
+
+You need a Java JDK 7 or later to run the build. You can run the build like this:
+
+    ./gradlew build
+
+You can run the app with:
+
+    ./gradlew npm_start
+
+Once it is running, you can access it in a browser at http://localhost:8080
+
+## Technology Used
+Docker, Jenkins, Terraform, Kubernetes,Vagran
+
+
